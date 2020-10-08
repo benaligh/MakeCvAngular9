@@ -1,0 +1,54 @@
+.bg-color {
+  background-color: #fafafa;
+
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #009599;
+  border-radius: 25px;
+}
+
+.linkAdd {
+  margin-bottom: 10px;
+}
+
+.block-education {
+  margin-top: 5px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.diplome {
+
+}
+
+.universite {
+  color: #0098cf;
+}
+
+.date {
+  color: #777;
+}
+
+.round {
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-back {
+  margin-left: 10px;
+}
+
+.fa {
+  margin-left: 10px;
+  border-color: green;
+}

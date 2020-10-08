@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+      <div class="col-5">
+          <router-outlet></router-outlet>
+      </div>
+      <div class="col-7">
+          <button type="button" class="btn btn-primary text-center linkAdd" [routerLink]="['add-education']">Ajouter
+          </button>
+          <a href="" class="link-back" [routerLink]="['/education']">retour</a>
+          <div class="card bg-color round">
+              <div class="card-body">
+                  <div class="row" *ngFor="let education of educationList; let i=index">
+                      <div class="col-10">
+                          <div class="block-education" >
+                              <div class="diplome">{{education.diplome}} / <span
+                                      class=""> {{education.domaine}}</span></div>
+                              <div class="universite">
+                                  {{education.ecole}}
+                              </div>
+                              <div class="date">
+                                  De {{education.dateStart | date}} à {{education.dateEnd | date}}
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-2">
+                          <div class="actions-education">
+                              <a href="#" class="update-education"><i
+                                      class="fa fa-pencil"></i></a>
+                              <div class="delete-education" (click)="deleteEducation(education)"><i class="fa fa-trash"></i></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>

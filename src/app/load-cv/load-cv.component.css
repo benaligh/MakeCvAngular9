@@ -1,0 +1,92 @@
+.profile {
+  background-color: rgb(48, 167, 191);
+}
+
+.photo-profil {
+  margin: 5px 5px 5px 5px;
+}
+
+.info-profil {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 25px 5px 25px 5px;
+}
+
+.poste-actual h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.block-education {
+  margin-top: 5px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.block-education h6 {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.content-education {
+  margin-top: 5px;
+}
+
+.education-ecole {
+  color: #0098cf;
+}
+
+.block-experience {
+  margin-top: 15px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.block-experience h6 {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.content-experience {
+  margin-top: 5px;
+}
+
+.experience-poste {
+}
+
+.experience-company {
+  color: #0098cf;
+}
+
+.experience-adress {
+
+}
+
+.experience-date {
+
+}
+
+.experience-description {
+
+}
+
+.date-color-block {
+  color: #777;
+}
+

@@ -1,0 +1,113 @@
+<!--<div class="card">
+
+    <div class="card-header">
+        <a href="#" class="download-cv" style="margin-left: 582px; color:#009599">Télécharger CV </a>
+    </div>-->
+
+    <div class="container">
+      <div class="profile">
+          <div class="row">
+              <div class="col-2">
+                  <div class="photo-profil">
+                      <img src="assets/images/ghassen.jpg" class="rounded-circle" alt="Cinque Terre" width="120"
+                           height="120">
+                  </div>
+              </div>
+              <div class="col-6">
+                  <div class="info-profil">
+                      <div class="name-profil">
+                          <h1>Ghassen Ben Ali</h1>
+                      </div>
+                      <div class="poste-actual">
+                          <h6> Full Stack Developer, PHP Symfony | Angular</h6>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="about">
+                      <div class="age">
+                          29 ans
+                      </div>
+                      <div class="adress">
+                          Avenue 14 janvier, Tunis
+                      </div>
+                      <div class="nationality">
+                          Tunisien
+                      </div>
+                      <div class="situation">
+                          Celibataire
+                      </div>
+                      <div class="email">
+                          benali.ghass@gmail.com
+                      </div>
+                      <div class="phone">
+                          +216 00 000 000
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-8">
+            <!-------------------------------------------------------------------------------->
+            <h6>Etudes & Diplome</h6>
+               <div class="block-education" *ngFor="let education of educationList">
+                    <div class="diplome">{{education.diplome}} / <span class="domaine"> {{education.domaine}}</span></div>
+                    <div class="education-ecole "> {{education.ecole}}</div>
+                    <div class="date"> De {{education.dateStart | date}} à {{education.dateEnd | date}}</div>
+              </div>
+            <!-------------------------------------------------------------------------------->
+          </div>
+          <div class="col-4">
+            <h6>Certifications</h6>
+              <div class="cv-block block-certification">
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-8">
+              <div class="block-experience">
+                  <h6>Expériences professionnelles</h6>
+                  <div class="content-experience">
+                      <div class="experience-poste">Back-End Web Developer PHP Symfony / <span class="experience-company">Open Bee</span>
+                          - <span class="experience-adress">Hammamet</span></div>
+                      <div class="experience-date date-color-block">De mars 2019 à fevriér 2020</div>
+                      <div class="experience-description">
+                          <div class="experience-description name-project">
+                              Projet : Portal GED (Gestion Electronique des Documents)
+                          </div>
+                          <div class="experience-description tasks">
+                              <h6>- Missions et tâches réalisées :</h6>
+                              <div class="experience-description tasks-content">
+                                  Développement des nouvelles fonctionnalités et des améliorations.
+                                  L'analyse et la correction des anomalies.
+                                  Implémenter des tests unitaires et techniques.
+                                  Rédiger la documentation technique
+                                  Participer activement dans les cérémonies Scrum : Daily Meeting, Sprint Planning, Sprint
+                                  Rétrospective, Sprint Review.
+                                  Démo pour le client.
+                                  Bug Fix, Bug Checking, MAT, NRT (TDD).
+
+                                  Environnement: PhpStorm, php 5/7.2, Symfony 3, Api, Rest, Api Plateform, Postman, Mysql,
+                                  HTML, CSS, Bootstrap3, Javascript, jQuery, Ajax, PhpUnit, Git, Gitlab, GitFlow, jira,
+                                  Jenkins
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-4"></div>
+          </div>
+      </div>
+  </div>
+
+
+  <!--
+  </div>
+  -->
